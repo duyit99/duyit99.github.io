@@ -926,6 +926,82 @@ const projectsData = [
     link: "",
     demo: "https://duyit99.github.io/phone_website-master/"
   }
+  ,
+  {
+    name: "Congrat !",
+    photo: "./images/10k.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/10K-Subs---Thank-you---With-Circle-Burst-Animation---Using-HTML-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Colorful",
+    photo: "./images/colorful.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Amazing-Colorful-Text-and-Background-Animations---Using-Pure-CSS-HTML/"
+  },
+  {
+    name: "Cursor",
+    photo: "./images/cursor.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Cursor-Animation-On-Mousemove-Mouseout-Mouse-Stopped---Using-HTML-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Falling Star",
+    photo: "./images/fallingstar.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Falling-Stars-Animation---Only-Using-CSS-HTML/"
+  },
+  {
+    name: "Line Burst",
+    photo: "./images/lineburst.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Line-Burst-Background-Animation---Using-HTML-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Button",
+    photo: "./images/buttonmag.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Magnetic-Buttons---Using-HTML-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Christmas Card",
+    photo: "./images/cardch.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Merry-Christmas---3D-Card-Rotate-On-Mousemove---Using-HTML-CSS-Javascript/"
+  },
+  {
+    name: "Mouse move",
+    photo: "./images/mousemove.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Parallax-Mousemove-Effect---Change-Background-Position-On-Mousemove---Using-HTML-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Slider",
+    photo: "./images/slider3.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Responsive-Image-Slider---With-Manual-Autoplay-Navigation---Using-HTML-CSS-Javascript/"
+  },
+  {
+    name: "Nature",
+    photo: "./images/homepage-nature.png",
+    category: "homepage",
+    link: "",
+    demo: "https://duyit99.github.io/Responsive-Website-Landing-Page-Design---Title-Creative-Nature---Only-Using-CSS-HTML/"
+  }
 ];
 function projectTemplate(project) {
   return `  
