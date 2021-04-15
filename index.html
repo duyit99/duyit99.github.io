@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website || Duy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="#">Duy <span>hub.</span></a>
+  </nav>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="fullproject">Completed PJ</span>
+        <span class="item" data-name="homepage">Homepage</span>
+        <span class="item" data-name="animation">Animation</span>
+        <span class="item" data-name="preloader">Preloader</span>
+        <span class="item" data-name="orther">Orther</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery" id="gallery">
+
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+ <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var nav = document.querySelector(".nav");
+    var sticky = nav.offsetTop;
+    
+    function myFunction() {
+      console.log(pageYOffset + " ..." + sticky)
+      if (window.pageYOffset >= 150) {
+        nav.classList.add("sticky")
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+    </script>
+
+</body>
+
+</html>
