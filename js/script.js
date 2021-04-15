@@ -1,7 +1,15 @@
 //selecting all required elements
+/// show ads
+
+// window.onload = function () {
+  
+// }
+
+
 const filterItem = document.querySelector(".items");
 const filterImg = document.querySelectorAll(".gallery .image");
-
+const popup = document.querySelector('.popup');
+const closebtn = document.querySelector('.close');
 window.onload = ()=>{ //after window loaded
   filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
     if(selectedItem.target.classList.contains("item")){ //if user selected item has .item class
@@ -22,31 +30,47 @@ window.onload = ()=>{ //after window loaded
       });
     }
   }
+  checkLocalStorage();
+  
   // for (let i = 0; i < filterImg.length; i++) {
   //   filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
   // }
 }
+closebtn.addEventListener('click', () => {
+  popup.style.display = "none";
+})
+function checkLocalStorage(){
+  if (typeof(Storage) !== "undefined") {
+    
+    var res = localStorage.getItem("ads");
+    if(res!=="has"){
+      localStorage.setItem("ads", "has");
+      setTimeout(function () {
+        popup.style.display = "block"
+      }, 500)
+    }
+    
+  } else {
+    console.log("No support")
+  }
+}
 
-//fullscreen image preview function
-//selecting all required elements
-// const previewBox = document.querySelector(".preview-box"),
-// categoryName = previewBox.querySelector(".title p"),
-// previewImg = previewBox.querySelector("img"),
-// closeIcon = previewBox.querySelector(".icon"),
-// shadow = document.querySelector(".shadow");
 
-// function preview(element){
-//   //once user click on any image then remove the scroll bar of the body, so user can't scroll up or down
-//   document.querySelector("body").style.overflow = "hidden";
-//   let selectedPrevImg = element.querySelector("img").src; //getting user clicked image source link and stored in a variable
-//   let selectedImgCategory = element.getAttribute("data-name"); //getting user clicked image data-name value
-//   previewImg.src = selectedPrevImg; //passing the user clicked image source in preview image source
-//   categoryName.textContent = selectedImgCategory; //passing user clicked data-name value in category name
-//   previewBox.classList.add("show"); //show the preview image box
-//   shadow.classList.add("show"); //show the light grey background
-//   closeIcon.onclick = ()=>{ //if user click on close icon of preview box
-//     previewBox.classList.remove("show"); //hide the preview box
-//     shadow.classList.remove("show"); //hide the light grey background
-//     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
-//   }
-// }
+/// scroll sticky
+window.onscroll = function () { myFunction() };
+
+var nav = document.querySelector(".nav");
+var sticky = nav.offsetTop;
+var scrollToTop = document.querySelector(".scroll-to-top");
+
+function myFunction() {
+  // console.log(pageYOffset + " ..." + sticky)
+  if (window.pageYOffset >= 150) {
+    nav.classList.add("sticky")
+    scrollToTop.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+    scrollToTop.classList.remove("sticky")
+  }
+}
+

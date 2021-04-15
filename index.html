@@ -6,13 +6,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My website || Duy</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/star.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
+  <div>
+    <div class="stars-01"></div>
+    <div class="stars-02"></div>
+    <div class="stars-03"></div>
+    <div class="stars-04"></div>
+  </div>
   <nav class="nav">
-    <a href="#">Duy <span>hub.</span></a>
+    <a href="#">Duy <span>hub</span></a>
   </nav>
   <div class="wrapper">
     <!-- filter Items -->
@@ -31,6 +38,29 @@
 
     </div>
   </div>
+  <a href="#">
+    <div class="scroll-to-top">
+      <div></div>
+    </div>
+  </a>
+  <div class="popup">
+    <div class="contentbox">
+      <div class="close"></div>
+      <div class="imgbox">
+        <img src="./icon/ads.svg" alt="">
+      </div>
+      <div class="content">
+        <div>
+          <h3>Special Offer</h3>
+          <h2>80<sup>%</sup><span> Off</span></h2>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Get The Deal</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
   <!-- fullscreen img preview box -->
   <div class="preview-box">
     <div class="details">
@@ -40,23 +70,9 @@
     <div class="image-box"><img src="" alt=""></div>
   </div>
   <div class="shadow"></div>
- <script src="data.js"></script>
-  <script src="script.js"></script>
-  <script>
-    window.onscroll = function() {myFunction()};
-    
-    var nav = document.querySelector(".nav");
-    var sticky = nav.offsetTop;
-    
-    function myFunction() {
-      console.log(pageYOffset + " ..." + sticky)
-      if (window.pageYOffset >= 150) {
-        nav.classList.add("sticky")
-      } else {
-        nav.classList.remove("sticky");
-      }
-    }
-    </script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+
 
 </body>
 
