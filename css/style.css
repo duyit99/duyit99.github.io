@@ -13,18 +13,12 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: #555;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #ff7b00;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,0.5);
 }
@@ -65,9 +59,6 @@ body{
   font-size: 45px;
   position: relative;
   text-transform: capitalize;
-  
-  
-  
 }
 .nav a span::before{
   content: '';
@@ -79,13 +70,10 @@ body{
   bottom: 10px;
   z-index: -1;
   border-radius: 5px;
-
-
 }
 .menu-hamburger{
     height: 50px;
     width: 50px;
-    
     cursor: pointer;
     border: none;
     background-color: #ff7b00;

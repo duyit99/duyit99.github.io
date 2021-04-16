@@ -1002,6 +1002,134 @@ const projectsData = [
     link: "",
     demo: "https://duyit99.github.io/Responsive-Website-Landing-Page-Design---Title-Creative-Nature---Only-Using-CSS-HTML/"
   }
+  ,
+  {
+    name: "Alime",
+    photo: "./images/venus.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Venus/"
+  }
+  ,
+  {
+    name: "Venus",
+    photo: "./images/alime.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/alime/"
+  }
+  ,
+  {
+    name: "Beckham",
+    photo: "./images/beckham.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/beckham/"
+  }
+  ,
+  {
+    name: "Breed",
+    photo: "./images/breed.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/breed2/"
+  }
+  ,
+  {
+    name: "CV",
+    photo: "./images/cvportfolio.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/cvportfolio/"
+  }
+  ,
+  {
+    name: "App",
+    photo: "./images/appland.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/appland-free-lite/"
+  }
+  ,
+  {
+    name: "Elie",
+    photo: "./images/elite.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Elie/"
+  }
+  ,
+  {
+    name: "Evolo",
+    photo: "./images/evolo.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Evolo/"
+  }
+  ,
+  {
+    name: "Laurel",
+    photo: "./images/laurel.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Laurel/"
+  }
+  ,
+  {
+    name: "Leno",
+    photo: "./images/leno.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Leno/"
+  }
+  ,
+  {
+    name: "Marshmallow",
+    photo: "./images/marsh.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Marshmallow/"
+  }
+  ,
+  {
+    name: "Slick",
+    photo: "./images/slick.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Slick-Free-lite/"
+  }
+  ,
+  {
+    name: "Solid",
+    photo: "./images/solid.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Solid/"
+  }
+  ,
+  {
+    name: "Solmussic",
+    photo: "./images/sol.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Solmusic/"
+  }
+  ,
+  {
+    name: "Tivo",
+    photo: "./images/tivo.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Tivo/"
+  }
+  ,
+  {
+    name: "Twitch",
+    photo: "./images/switch.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Switch/"
+  }
 ];
 function projectTemplate(project) {
   return `  
