@@ -10,6 +10,8 @@ const filterItem = document.querySelector(".items");
 const filterImg = document.querySelectorAll(".gallery .image");
 const popup = document.querySelector('.popup');
 const closebtn = document.querySelector('.close');
+const menufilter = document.querySelector('.menu-filter');
+const menutoggle = document.querySelector('.menu-hamburger');
 window.onload = ()=>{ //after window loaded
   filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
     if(selectedItem.target.classList.contains("item")){ //if user selected item has .item class
@@ -29,12 +31,10 @@ window.onload = ()=>{ //after window loaded
         }
       });
     }
+    toggleMenu();
   }
   checkLocalStorage();
   
-  // for (let i = 0; i < filterImg.length; i++) {
-  //   filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
-  // }
 }
 closebtn.addEventListener('click', () => {
   popup.style.display = "none";
@@ -74,3 +74,11 @@ function myFunction() {
   }
 }
 
+menutoggle.addEventListener("click", toggleMenu)
+
+function toggleMenu(){
+  menutoggle.classList.toggle("open");
+  menufilter.classList.toggle('active');
+  const bodyprevent = document.querySelector('.wrapper');
+
+}

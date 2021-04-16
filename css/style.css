@@ -33,6 +33,7 @@ body{
   background-color: rgba(0,0,0,0.8);
   z-index: -2;
 }
+
 .nav{
   background-color: rgba(0,0,0,0.85);
   padding: 10px 50px;
@@ -43,7 +44,7 @@ body{
   width: 100%;
   z-index: 100;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   transition: all 0.3s;
 }
@@ -55,7 +56,7 @@ body{
   font-size: 50px;
   color: #fff;
   font-weight: 900;
-  
+  margin-left: 10%;
   text-transform: uppercase;
 
 }
@@ -81,13 +82,135 @@ body{
 
 
 }
+.menu-hamburger{
+    height: 50px;
+    width: 50px;
+    
+    cursor: pointer;
+    border: none;
+    background-color: #ff7b00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+    z-index: 10000;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 5px;
+}
+.menu-hamburger.open
+{
+  transform: rotate(180deg);
+}
+.menu-hamburger div{
+    height: 3px;
+    width: 30px;
+    display: block;
+    background-color: #111;
+    position: relative;
+}
+.menu-hamburger.open div{
+  background-color: transparent;
+}
+.menu-hamburger div::before,
+.menu-hamburger div::after{
+  content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    transition: all 0.25s;
+}
+.menu-hamburger.open div::before{
+  transform: rotate(-45deg);
+}
+.menu-hamburger.open div::after{
+  transform: rotate(45deg);
+}
+.menu-hamburger div::before{
+  transform: translateY(-8px);
+}
+.menu-hamburger div::after{
+  transform: translateY(8px);
+}
+.menu-filter{
+  position: fixed;
+  top: -100%;
+  left: 15%;
+  width: 70%;
+  height: 70vh;
+  background-color: #111;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.menu-filter.active{
+  top: 15vh;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-filter .items span{
+  display: block;
+  padding: 7px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #007bff;
+  color: #ff7b00;
+  border-radius: 50px;
+  border: 2px solid #007bff;
+  border: 2px solid #555;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.menu-filter .items span:last-child
+{
+  margin-bottom: 0px;
+}
+.menu-filter .copy-right{
+  margin-top: 40px;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+.menu-filter .copy-right a{
+  text-decoration: none;
+  background-color: #ff7b00;
+  color: #000;
+  margin-left: 2px;
+  padding: 2px 3px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
 .wrapper{
+  transition: all 0.3s ease;
   margin: 100px auto;
   max-width: 1100px;
+  position: relative;
+}
+.wrapper.prevent-scroll
+{
+  overflow: hidden;
 }
 .wrapper nav{
   display: flex;
   justify-content: center;
+  
 }
 .wrapper .items{
   display: flex;
