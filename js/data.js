@@ -28,6 +28,20 @@ const projectsData = [
     demo: "https://duy99uit.github.io/Restaurant-Website-Lading/"
   },
   {
+    name: "Portfolio 2021",
+    photo: "./images/port2021.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duy99uit.github.io/Portfolio-2021/"
+  },
+  {
+    name: "Neumorphism Portfolio",
+    photo: "./images/portglass.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duy99uit.github.io/Neumorphism-Portfolio/"
+  },
+  {
     name: "Film",
     photo: "./images/flim2.png",
     category: "homepage",
@@ -51,14 +65,14 @@ const projectsData = [
   {
     name: "Professional Portfolio Darkmode and Switch Color",
     photo: "./images/port1.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Professional-Portfolio-Darkmode-and-Switch-Color/"
   },
   {
     name: "Portfolio",
     photo: "./images/port2.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Portfolio/"
   },
@@ -123,7 +137,7 @@ const projectsData = [
   {
     name: "TypingJS Portfolio",
     photo: "./images/typing-porfolio.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/TypingJS-Personal-Portfolio/"
   },
@@ -152,7 +166,7 @@ const projectsData = [
   {
     name: "Photography Portfolio",
     photo: "./images/photography-portfilo.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Photography-Portfolio-Page/"
   }
@@ -846,7 +860,7 @@ const projectsData = [
   {
     name: "Portfolio",
     photo: "./images/port7.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/mystery-Code-2/"
   }
@@ -861,7 +875,7 @@ const projectsData = [
   {
     name: "Portfolio",
     photo: "./images/port6.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/mystery-code/"
   }
@@ -869,7 +883,7 @@ const projectsData = [
   {
     name: "Portfolio",
     photo: "./images/port5.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Responsive-Personal-Portfolio-Website---HTML-CSS-Vanilla-Javascript/"
   }
@@ -877,14 +891,14 @@ const projectsData = [
   {
     name: "Portfolio",
     photo: "./images/port4.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Personal-Portfolio-Website-HTML/"
   },
   {
     name: "Portfolio",
     photo: "./images/port3.png",
-    category: "fullproject",
+    category: "portfolio",
     link: "",
     demo: "https://duyit99.github.io/Personal-Portfolio-Website-2/"
   }
@@ -1129,6 +1143,22 @@ const projectsData = [
     category: "template",
     link: "",
     demo: "https://duyit99.github.io/Switch/"
+  }
+  ,
+  {
+    name: "Homepage",
+    photo: "./images/homepage-animate.png",
+    category: "homepage",
+    link: "",
+    demo: "https://duyit99.github.io/Animated-Website-Html-CSS-Javascript/"
+  }
+  ,
+  {
+    name: "Parrallax",
+    photo: "./images/parallax3.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Parallax-Scrolling-Website/"
   }
 ];
 function projectTemplate(project) {
