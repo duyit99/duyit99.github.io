@@ -1160,6 +1160,54 @@ const projectsData = [
     link: "",
     demo: "https://duyit99.github.io/Parallax-Scrolling-Website/"
   }
+  ,
+  {
+    name: "SEO",
+    photo: "./images/seo.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/templatemo_562_space_dynamic/"
+  }
+  ,
+  {
+    name: "Blog",
+    photo: "./images/blog.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Blog/"
+  }
+  ,
+  {
+    name: "Covid",
+    photo: "./images/covid2.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/covid-website/"
+  }
+  ,
+  {
+    name: "Covid",
+    photo: "./images/covid.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/covid-website-1/"
+  }
+  ,
+  {
+    name: "Flix",
+    photo: "./images/flix.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/flix-movie-homepage-main/"
+  }
+  ,
+  {
+    name: "Pet",
+    photo: "./images/pet.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/pet-food-website/"
+  }
 ];
 function projectTemplate(project) {
   return `  
