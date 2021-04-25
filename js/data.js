@@ -1208,6 +1208,134 @@ const projectsData = [
     link: "",
     demo: "https://duyit99.github.io/pet-food-website/"
   }
+  ,
+  {
+    name: "Template",
+    photo: "./images/muscle.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Dev-Muscles-Landing-Page-master/"
+  }
+  ,
+  {
+    name: "Ecommerce",
+    photo: "./images/ecommerce2.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/sol-store-ecommerce-main/"
+  }
+  ,
+  {
+    name: "Book",
+    photo: "./images/book.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/STech-LandinPgae--web-design-master/"
+  }
+  ,
+  {
+    name: "Ecommerce",
+    photo: "./images/ecommerce.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/E-Commerce-website-html-css-main/"
+  }
+  ,
+  {
+    name: "File Storage",
+    photo: "./images/filestorage.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/File-Storage-Website-Landing-Page-main/"
+  }
+  ,
+  {
+    name: "Fylo",
+    photo: "./images/fylo.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/fylo-website-with-html-and-css-main/"
+  }
+  ,
+  {
+    name: "Insurance",
+    photo: "./images/insurance.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/insurance-policy-website-design-main/"
+  }
+  ,
+  {
+    name: "Job Portal",
+    photo: "./images/jobportal.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/job-portal-landing-page-website-with-html-and-css-main/"
+  }
+  ,
+  {
+    name: "Banking",
+    photo: "./images/banking2.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/online-banking-website-design-with-html-css-main/"
+  }
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port9.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/personal-portfolio-website-yt-main/"
+  }
+  ,
+  {
+    name: "Landing",
+    photo: "./images/landing2.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/responive-website-with-htm-css-bootstrap-manage--main/"
+  }
+  ,
+  {
+    name: "Lading",
+    photo: "./images/landing.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/Responsive-Landing-page-website-with-html-css-bootstrap-main/"
+  }
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port8.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/Responsive-Portfolio-Website-main/"
+  }
+  ,
+  {
+    name: "Shortly",
+    photo: "./images/shortly.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/shortly-website-with-html-css-main/"
+  }
+  ,
+  {
+    name: "VR",
+    photo: "./images/vr.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/virtual-reality-website-main/"
+  }
+  ,
+  {
+    name: "JS Booking Seat",
+    photo: "./images/seat.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/javascript-movie-seat-booking-app-main/"
+  }
 ];
 function projectTemplate(project) {
   return `  
