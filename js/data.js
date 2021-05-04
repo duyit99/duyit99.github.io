@@ -1336,6 +1336,30 @@ const projectsData = [
     link: "",
     demo: "https://duyit99.github.io/javascript-movie-seat-booking-app-main/"
   }
+  ,
+  {
+    name: "Shortly",
+    photo: "./images/shortly.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Card-Profile/"
+  }
+  ,
+  {
+    name: "Google Search",
+    photo: "./images/vr.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Google-Search/"
+  }
+  ,
+  {
+    name: "Wave Parallax",
+    photo: "./images/seat.png",
+    category: "orther",
+    link: "",
+    demo: "https://duyit99.github.io/Wave-Parallax/"
+  }
 ];
 function projectTemplate(project) {
   return `  
@@ -1371,12 +1395,7 @@ function getLinkGithub(link){
     return res
   }
   
-  
-  
-  
 }
-document.getElementById("gallery").innerHTML = `
-    
+document.getElementById("gallery").innerHTML = ` 
     ${projectsData.map(projectTemplate).join("")}
-    
   `;
