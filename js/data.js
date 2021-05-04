@@ -1339,7 +1339,7 @@ const projectsData = [
   ,
   {
     name: "Shortly",
-    photo: "./images/shortly.png",
+    photo: "./images/carddark.png",
     category: "orther",
     link: "",
     demo: "https://duyit99.github.io/Card-Profile/"
@@ -1347,7 +1347,7 @@ const projectsData = [
   ,
   {
     name: "Google Search",
-    photo: "./images/vr.png",
+    photo: "./images/googlesearch.png",
     category: "orther",
     link: "",
     demo: "https://duyit99.github.io/Google-Search/"
@@ -1355,7 +1355,7 @@ const projectsData = [
   ,
   {
     name: "Wave Parallax",
-    photo: "./images/seat.png",
+    photo: "./images/waveparallax.png",
     category: "orther",
     link: "",
     demo: "https://duyit99.github.io/Wave-Parallax/"
