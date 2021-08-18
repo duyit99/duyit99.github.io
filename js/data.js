@@ -1359,6 +1359,54 @@ const projectsData = [
     category: "orther",
     link: "",
     demo: "https://duyit99.github.io/Wave-Parallax/"
+  },
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port-2021-1.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/creative-agency-website/work.html"
+  }
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port-2021-2.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/portfolio-6/"
+  }
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port-2021-3.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/portfolio-8/"
+  }
+  ,
+  {
+    name: "Portfolio",
+    photo: "./images/port-2021-4.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/portfolio_02/"
+  }
+  ,
+  {
+    name: "Port VR",
+    photo: "./images/port-vr.png",
+    category: "portfolio",
+    link: "",
+    demo: "https://duyit99.github.io/portfolio-vr/"
+  }
+  ,
+  {
+    name: "Travel",
+    photo: "./images/travel-2021.png",
+    category: "template",
+    link: "",
+    demo: "https://duyit99.github.io/responsive-travel-website/#"
   }
 ];
 function projectTemplate(project) {
